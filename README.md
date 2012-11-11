@@ -12,6 +12,6 @@ Installation of 0.4b:
 4) Manually edit parse-vrf.php and change the directories where rancid is located. the provided file points to two different locations, delete or add as you wish.
 5) After imported you can run show-one-vrf.php or show-one-device.php .. they link to eachother.
 
-hopefully you'll make it work.. if not you can e-mail me at akus_2000@hotmail.com with questions.
+hopefully you'll make it work.. :-)
 
 the 0.5a version is mostly getting v6 and v4 address family sorted.. vrf definitions are parsed in 0.4b but viewers need updating.
