@@ -1,44 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mplsviewer by ahabcaptain</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mplsviewer : View mpls enabled devices, vrfs and their import/export viewer. (rancid parsed to mysql with php front-end)" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mplsviewer</title>
   </head>
+
   <body>
 
-      <header>
-        <h1>Mplsviewer</h1>
-        <p>View mpls enabled devices, vrfs and their import/export viewer. (rancid parsed to mysql with php front-end)</p>
-      </header>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ahabcaptain/mplsviewer">View on GitHub</a>
 
-      <div id="banner">
-        <span id="logo"></span>
+          <h1 id="project_title">Mplsviewer</h1>
+          <h2 id="project_tagline">View mpls enabled devices, vrfs and their import/export viewer. (rancid parsed to mysql with php front-end)</h2>
 
-        <a href="https://github.com/ahabcaptain/mplsviewer" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/ahabcaptain/mplsviewer/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/ahabcaptain/mplsviewer/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ahabcaptain/mplsviewer/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ahabcaptain/mplsviewer/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <p>mplsviewer by Aki Hermann Barkarson, CCIE # 27552</p>
 
 <p>Latest version: 0.5b</p>
@@ -46,8 +38,8 @@
 <p>New features:</p>
 
 <ul>
-<li>Some basic regexp search capability in search</li>
-<li>VRF parser fixed for definition route-targets not under address-family</li>
+<li>Some basic regexp capability in search.</li>
+<li>VRF parser fixed for definition route-targets not under address-family.</li>
 <li>view-one-vrf.php updated for ipv4 only, ipv6 only and ipv4/ipv6.</li>
 </ul><p><img src="https://raw.github.com/ahabcaptain/mplsviewer/master/screenshots/view-one-vrf.png" alt="Screenshot of VRF view:">Large view: <a href="https://raw.github.com/ahabcaptain/mplsviewer/master/screenshots/view-one-vrf.png">https://raw.github.com/ahabcaptain/mplsviewer/master/screenshots/view-one-vrf.png</a></p>
 
@@ -68,12 +60,17 @@
 <li>Add RD values again, neatly(removed it in 0.4b).</li>
 </ul><p>and more..</p>
       </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/ahabcaptain">ahabcaptain</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mplsviewer maintained by <a href="https://github.com/ahabcaptain">ahabcaptain</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
+
   </body>
 </html>
