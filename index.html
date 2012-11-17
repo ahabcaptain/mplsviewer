@@ -4,32 +4,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Mplsviewer by ahabcaptain</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>Mplsviewer</h1>
         <p>View mpls enabled devices, vrfs and their import/export viewer. (rancid parsed to mysql with php front-end)</p>
-
-        <p class="view"><a href="https://github.com/ahabcaptain/mplsviewer">View the Project on GitHub <small>ahabcaptain/mplsviewer</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/ahabcaptain/mplsviewer/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/ahabcaptain/mplsviewer/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/ahabcaptain/mplsviewer">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/ahabcaptain/mplsviewer" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/ahabcaptain/mplsviewer/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/ahabcaptain/mplsviewer/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
-        <p>Project: mplsviewer
-Author: Aki Hermann Barkarson, CCIE # 27552</p>
+        <p>mplsviewer by Aki Hermann Barkarson, CCIE # 27552</p>
 
 <p>Latest version: 0.5b</p>
 
@@ -42,23 +52,25 @@ Author: Aki Hermann Barkarson, CCIE # 27552</p>
 </ul><p>Go to 'Downloads' for the latest release.
 Installation instructions are in the Wiki section.</p>
 
-<p>Next up;
-Add ipv6 support for view-one-device.php.
-Add HD vrf support to parser.
-Add HD vrf view to seperate viewer or add it to the others, still conflicted about how to solve this.
-Add rancid path array to config.php.
-Stop using silly shell commands in parser, read to php and work it over there.
-Move redundant code to functions.
-Add css support.
-Add RD values again, neatly(removed it in 0.4b).
-More..</p>
+<p>Next up:</p>
+
+<ul>
+<li>Add ipv6 support for view-one-device.php.</li>
+<li>Add HD vrf support to parser.</li>
+<li>Add HD vrf viewer support.</li>
+<li>Add rancid path array to config.php.</li>
+<li>Stop using silly shell commands in parser, read to php and work it over there.</li>
+<li>Move redundant code to functions.</li>
+<li>Add css support.</li>
+<li>Add RD values again, neatly(removed it in 0.4b).</li>
+</ul><p>and more..</p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/ahabcaptain">ahabcaptain</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Project maintained by <a href="https://github.com/ahabcaptain">ahabcaptain</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
