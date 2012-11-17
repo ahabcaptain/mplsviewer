@@ -1,0 +1,22 @@
+Project: mplsviewer
+Author: Aki Hermann Barkarson, CCIE # 27552
+
+Latest version: 0.5b
+
+New features:
+
+* Some basic regexp search capability in search
+* VRF parser fixed for definition route-targets not under address-family
+* Viewers updated for ipv4 only, ipv6 only and ipv4/ipv6.
+
+
+Installation instructions are in the Wiki section.
+
+Next up;
+Add HD vrf support.
+Add rancid path array to config.php.
+Stop using silly shell commands in parser, read to php and work it over there.
+Move redundant code to functions.
+Add css support.
+Add RD values again, neatly(removed it in 0.4b).
+More..
