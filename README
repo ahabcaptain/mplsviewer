@@ -1,21 +1,26 @@
 mplsviewer by Aki Hermann Barkarson, CCIE # 27552
 
-Latest version: 0.5b
+Latest version: 0.5.1b
 
 New features:
+
+0.5b:
 
 * Some basic regexp search capability in search
 * VRF parser fixed for definition route-targets not under address-family
 * view-one-vrf.php updated for ipv4 only, ipv6 only and ipv4/ipv6.
+
+0.5.1b:
+
+* Added ipv6 support for view-one-device.php.
+* Added HD vrf support to parser.
+* Added HD vrf viewer support.
 
 
 Go to 'Downloads' for the latest release.
 Installation instructions are in the Wiki section.
 
 Next up:
-* Add ipv6 support for view-one-device.php.
-* Add HD vrf support to parser.
-* Add HD vrf viewer support.
 * Add rancid path array to config.php.
 * Stop using silly shell commands in parser, read to php and work it over there.
 * Move redundant code to functions.
